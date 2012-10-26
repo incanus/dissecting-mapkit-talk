@@ -38,6 +38,11 @@
 			<false/>
 		</dict>
 	</dict>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>dissect.png</string>
+		<string>dissect@2x.png</string>
+	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -45,5 +50,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIPrerenderedIcon</key>
+	<true/>
 </dict>
 </plist>

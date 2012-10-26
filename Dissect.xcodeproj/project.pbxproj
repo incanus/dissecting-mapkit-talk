@@ -7,26 +7,114 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD389A441639D23F00D47F8B /* DSFingerTipWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DD389A431639D23F00D47F8B /* DSFingerTipWindow.m */; };
+		DD389A481639E7AF00D47F8B /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD389A471639E7AF00D47F8B /* MapViewController.m */; };
+		DD389A4A1639E7BC00D47F8B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD389A491639E7BC00D47F8B /* MapKit.framework */; };
+		DD389A4E1639E92000D47F8B /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD389A4D1639E92000D47F8B /* RotationViewController.m */; };
+		DD389A771639FA3300D47F8B /* OffsetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD389A761639FA3300D47F8B /* OffsetsViewController.m */; };
+		DD389A7F163A06AD00D47F8B /* ThreeDeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD389A7E163A06AD00D47F8B /* ThreeDeeViewController.m */; };
+		DD389A90163A305800D47F8B /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = DD389A8E163A305800D47F8B /* map.png */; };
+		DD389A91163A305800D47F8B /* map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD389A8F163A305800D47F8B /* map@2x.png */; };
+		DD389A9C163A311200D47F8B /* tiling.png in Resources */ = {isa = PBXBuildFile; fileRef = DD389A9A163A311200D47F8B /* tiling.png */; };
+		DD389A9D163A311200D47F8B /* tiling@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD389A9B163A311200D47F8B /* tiling@2x.png */; };
+		DD389AA0163A313800D47F8B /* annotations.png in Resources */ = {isa = PBXBuildFile; fileRef = DD389A9E163A313800D47F8B /* annotations.png */; };
+		DD389AA1163A313800D47F8B /* annotations@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD389A9F163A313800D47F8B /* annotations@2x.png */; };
+		DD389AA4163A314900D47F8B /* offsets.png in Resources */ = {isa = PBXBuildFile; fileRef = DD389AA2163A314900D47F8B /* offsets.png */; };
+		DD389AA5163A314900D47F8B /* offsets@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD389AA3163A314900D47F8B /* offsets@2x.png */; };
+		DD389AAC163A31A700D47F8B /* 3d.png in Resources */ = {isa = PBXBuildFile; fileRef = DD389AAA163A31A700D47F8B /* 3d.png */; };
+		DD389AAD163A31A700D47F8B /* 3d@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD389AAB163A31A700D47F8B /* 3d@2x.png */; };
+		DD5ADF27163A4E3A00914081 /* dissect.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5ADF25163A4E3A00914081 /* dissect.png */; };
+		DD5ADF28163A4E3A00914081 /* dissect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5ADF26163A4E3A00914081 /* dissect@2x.png */; };
+		DD5ADF2F163A4E5700914081 /* tile_1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5ADF29163A4E5700914081 /* tile_1.png */; };
+		DD5ADF30163A4E5700914081 /* tile_6.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5ADF2A163A4E5700914081 /* tile_6.png */; };
+		DD5ADF31163A4E5700914081 /* tile_2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5ADF2B163A4E5700914081 /* tile_2.png */; };
+		DD5ADF32163A4E5700914081 /* tile_5.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5ADF2C163A4E5700914081 /* tile_5.png */; };
+		DD5ADF33163A4E5700914081 /* tile_4.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5ADF2D163A4E5700914081 /* tile_4.png */; };
+		DD5ADF34163A4E5700914081 /* tile_3.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5ADF2E163A4E5700914081 /* tile_3.png */; };
+		DD5ADF37163A4E7C00914081 /* jack.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5ADF35163A4E7B00914081 /* jack.png */; };
+		DD5ADF38163A4E7C00914081 /* jack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5ADF36163A4E7B00914081 /* jack@2x.png */; };
+		DDB3F657163A415F005F91EE /* rotation.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB3F655163A415F005F91EE /* rotation.png */; };
+		DDB3F658163A415F005F91EE /* rotation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB3F656163A415F005F91EE /* rotation@2x.png */; };
+		DDB3F65C163A4295005F91EE /* MapBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB3F65B163A4295005F91EE /* MapBox.framework */; };
+		DDB3F65E163A42BC005F91EE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB3F65D163A42BC005F91EE /* CoreLocation.framework */; };
+		DDB3F660163A42C2005F91EE /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB3F65F163A42C2005F91EE /* libsqlite3.dylib */; };
+		DDB3F662163A42CA005F91EE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB3F661163A42CA005F91EE /* libz.dylib */; };
+		DDB3F665163A42F0005F91EE /* AnnotationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB3F664163A42F0005F91EE /* AnnotationsViewController.m */; };
+		DDB3F680163A442E005F91EE /* HeadingAngleSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB3F674163A442E005F91EE /* HeadingAngleSmall.png */; };
+		DDB3F681163A442E005F91EE /* HeadingAngleSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB3F675163A442E005F91EE /* HeadingAngleSmall@2x.png */; };
+		DDB3F682163A442E005F91EE /* LoadingTile.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB3F676163A442E005F91EE /* LoadingTile.png */; };
+		DDB3F683163A442E005F91EE /* LoadingTileZoom.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB3F677163A442E005F91EE /* LoadingTileZoom.png */; };
+		DDB3F684163A442E005F91EE /* TrackingDot.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB3F678163A442E005F91EE /* TrackingDot.png */; };
+		DDB3F685163A442E005F91EE /* TrackingDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB3F679163A442E005F91EE /* TrackingDot@2x.png */; };
+		DDB3F686163A442E005F91EE /* TrackingDotHalo.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB3F67A163A442E005F91EE /* TrackingDotHalo.png */; };
+		DDB3F687163A442E005F91EE /* TrackingDotHalo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB3F67B163A442E005F91EE /* TrackingDotHalo@2x.png */; };
+		DDB3F688163A442E005F91EE /* TrackingHeading.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB3F67C163A442E005F91EE /* TrackingHeading.png */; };
+		DDB3F689163A442E005F91EE /* TrackingHeading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB3F67D163A442E005F91EE /* TrackingHeading@2x.png */; };
+		DDB3F68A163A442E005F91EE /* TrackingLocation.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB3F67E163A442E005F91EE /* TrackingLocation.png */; };
+		DDB3F68B163A442E005F91EE /* TrackingLocation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB3F67F163A442E005F91EE /* TrackingLocation@2x.png */; };
 		DDE5FBD41639B13E0069E222 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE5FBD31639B13E0069E222 /* UIKit.framework */; };
 		DDE5FBD61639B13E0069E222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE5FBD51639B13E0069E222 /* Foundation.framework */; };
 		DDE5FBD81639B13E0069E222 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE5FBD71639B13E0069E222 /* CoreGraphics.framework */; };
 		DDE5FBDE1639B13E0069E222 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDE5FBDC1639B13E0069E222 /* InfoPlist.strings */; };
 		DDE5FBE01639B13E0069E222 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE5FBDF1639B13E0069E222 /* main.m */; };
 		DDE5FBE41639B13E0069E222 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE5FBE31639B13E0069E222 /* AppDelegate.m */; };
-		DDE5FBE61639B13E0069E222 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE5FBE51639B13E0069E222 /* Default.png */; };
-		DDE5FBE81639B13E0069E222 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE5FBE71639B13E0069E222 /* Default@2x.png */; };
-		DDE5FBEA1639B13E0069E222 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE5FBE91639B13E0069E222 /* Default-568h@2x.png */; };
-		DDE5FBED1639B13E0069E222 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE5FBEC1639B13E0069E222 /* FirstViewController.m */; };
-		DDE5FBEF1639B13E0069E222 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE5FBEE1639B13E0069E222 /* first.png */; };
-		DDE5FBF11639B13E0069E222 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE5FBF01639B13E0069E222 /* first@2x.png */; };
-		DDE5FBF41639B13E0069E222 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE5FBF31639B13E0069E222 /* SecondViewController.m */; };
-		DDE5FBF61639B13E0069E222 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE5FBF51639B13E0069E222 /* second.png */; };
-		DDE5FBF81639B13E0069E222 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE5FBF71639B13E0069E222 /* second@2x.png */; };
-		DDE5FBFB1639B13E0069E222 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE5FBF91639B13E0069E222 /* FirstViewController.xib */; };
-		DDE5FBFE1639B13E0069E222 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE5FBFC1639B13E0069E222 /* SecondViewController.xib */; };
+		DDE5FBED1639B13E0069E222 /* TiledLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE5FBEC1639B13E0069E222 /* TiledLayerViewController.m */; };
+		DDE5FC071639B3990069E222 /* TiledLayerContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE5FC061639B3990069E222 /* TiledLayerContentView.m */; };
+		DDE5FC091639B5190069E222 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE5FC081639B5180069E222 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD389A421639D23F00D47F8B /* DSFingerTipWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSFingerTipWindow.h; path = Externals/Fingertips/DSFingerTipWindow.h; sourceTree = SOURCE_ROOT; };
+		DD389A431639D23F00D47F8B /* DSFingerTipWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSFingerTipWindow.m; path = Externals/Fingertips/DSFingerTipWindow.m; sourceTree = SOURCE_ROOT; };
+		DD389A461639E7AF00D47F8B /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		DD389A471639E7AF00D47F8B /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		DD389A491639E7BC00D47F8B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DD389A4C1639E92000D47F8B /* RotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		DD389A4D1639E92000D47F8B /* RotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
+		DD389A751639FA3300D47F8B /* OffsetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffsetsViewController.h; sourceTree = "<group>"; };
+		DD389A761639FA3300D47F8B /* OffsetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffsetsViewController.m; sourceTree = "<group>"; };
+		DD389A7D163A06AD00D47F8B /* ThreeDeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeDeeViewController.h; sourceTree = "<group>"; };
+		DD389A7E163A06AD00D47F8B /* ThreeDeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeDeeViewController.m; sourceTree = "<group>"; };
+		DD389A8E163A305800D47F8B /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		DD389A8F163A305800D47F8B /* map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map@2x.png"; sourceTree = "<group>"; };
+		DD389A9A163A311200D47F8B /* tiling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiling.png; sourceTree = "<group>"; };
+		DD389A9B163A311200D47F8B /* tiling@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiling@2x.png"; sourceTree = "<group>"; };
+		DD389A9E163A313800D47F8B /* annotations.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annotations.png; sourceTree = "<group>"; };
+		DD389A9F163A313800D47F8B /* annotations@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotations@2x.png"; sourceTree = "<group>"; };
+		DD389AA2163A314900D47F8B /* offsets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offsets.png; sourceTree = "<group>"; };
+		DD389AA3163A314900D47F8B /* offsets@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "offsets@2x.png"; sourceTree = "<group>"; };
+		DD389AAA163A31A700D47F8B /* 3d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3d.png; sourceTree = "<group>"; };
+		DD389AAB163A31A700D47F8B /* 3d@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3d@2x.png"; sourceTree = "<group>"; };
+		DD5ADF25163A4E3A00914081 /* dissect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dissect.png; sourceTree = "<group>"; };
+		DD5ADF26163A4E3A00914081 /* dissect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dissect@2x.png"; sourceTree = "<group>"; };
+		DD5ADF29163A4E5700914081 /* tile_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_1.png; sourceTree = "<group>"; };
+		DD5ADF2A163A4E5700914081 /* tile_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_6.png; sourceTree = "<group>"; };
+		DD5ADF2B163A4E5700914081 /* tile_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_2.png; sourceTree = "<group>"; };
+		DD5ADF2C163A4E5700914081 /* tile_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_5.png; sourceTree = "<group>"; };
+		DD5ADF2D163A4E5700914081 /* tile_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_4.png; sourceTree = "<group>"; };
+		DD5ADF2E163A4E5700914081 /* tile_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_3.png; sourceTree = "<group>"; };
+		DD5ADF35163A4E7B00914081 /* jack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jack.png; sourceTree = "<group>"; };
+		DD5ADF36163A4E7B00914081 /* jack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jack@2x.png"; sourceTree = "<group>"; };
+		DDB3F655163A415F005F91EE /* rotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotation.png; sourceTree = "<group>"; };
+		DDB3F656163A415F005F91EE /* rotation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rotation@2x.png"; sourceTree = "<group>"; };
+		DDB3F65B163A4295005F91EE /* MapBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapBox.framework; path = Externals/MapBox/MapBox.framework; sourceTree = "<group>"; };
+		DDB3F65D163A42BC005F91EE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DDB3F65F163A42C2005F91EE /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		DDB3F661163A42CA005F91EE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		DDB3F663163A42F0005F91EE /* AnnotationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationsViewController.h; sourceTree = "<group>"; };
+		DDB3F664163A42F0005F91EE /* AnnotationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationsViewController.m; sourceTree = "<group>"; };
+		DDB3F674163A442E005F91EE /* HeadingAngleSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HeadingAngleSmall.png; path = Externals/MapBox/MapBox.framework/Versions/A/Resources/HeadingAngleSmall.png; sourceTree = SOURCE_ROOT; };
+		DDB3F675163A442E005F91EE /* HeadingAngleSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HeadingAngleSmall@2x.png"; path = "Externals/MapBox/MapBox.framework/Versions/A/Resources/HeadingAngleSmall@2x.png"; sourceTree = SOURCE_ROOT; };
+		DDB3F676163A442E005F91EE /* LoadingTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LoadingTile.png; path = Externals/MapBox/MapBox.framework/Versions/A/Resources/LoadingTile.png; sourceTree = SOURCE_ROOT; };
+		DDB3F677163A442E005F91EE /* LoadingTileZoom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LoadingTileZoom.png; path = Externals/MapBox/MapBox.framework/Versions/A/Resources/LoadingTileZoom.png; sourceTree = SOURCE_ROOT; };
+		DDB3F678163A442E005F91EE /* TrackingDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrackingDot.png; path = Externals/MapBox/MapBox.framework/Versions/A/Resources/TrackingDot.png; sourceTree = SOURCE_ROOT; };
+		DDB3F679163A442E005F91EE /* TrackingDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TrackingDot@2x.png"; path = "Externals/MapBox/MapBox.framework/Versions/A/Resources/TrackingDot@2x.png"; sourceTree = SOURCE_ROOT; };
+		DDB3F67A163A442E005F91EE /* TrackingDotHalo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrackingDotHalo.png; path = Externals/MapBox/MapBox.framework/Versions/A/Resources/TrackingDotHalo.png; sourceTree = SOURCE_ROOT; };
+		DDB3F67B163A442E005F91EE /* TrackingDotHalo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TrackingDotHalo@2x.png"; path = "Externals/MapBox/MapBox.framework/Versions/A/Resources/TrackingDotHalo@2x.png"; sourceTree = SOURCE_ROOT; };
+		DDB3F67C163A442E005F91EE /* TrackingHeading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrackingHeading.png; path = Externals/MapBox/MapBox.framework/Versions/A/Resources/TrackingHeading.png; sourceTree = SOURCE_ROOT; };
+		DDB3F67D163A442E005F91EE /* TrackingHeading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TrackingHeading@2x.png"; path = "Externals/MapBox/MapBox.framework/Versions/A/Resources/TrackingHeading@2x.png"; sourceTree = SOURCE_ROOT; };
+		DDB3F67E163A442E005F91EE /* TrackingLocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrackingLocation.png; path = Externals/MapBox/MapBox.framework/Versions/A/Resources/TrackingLocation.png; sourceTree = SOURCE_ROOT; };
+		DDB3F67F163A442E005F91EE /* TrackingLocation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TrackingLocation@2x.png"; path = "Externals/MapBox/MapBox.framework/Versions/A/Resources/TrackingLocation@2x.png"; sourceTree = SOURCE_ROOT; };
 		DDE5FBCF1639B13E0069E222 /* Dissect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dissect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE5FBD31639B13E0069E222 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DDE5FBD51639B13E0069E222 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,19 +125,11 @@
 		DDE5FBE11639B13E0069E222 /* Dissect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dissect-Prefix.pch"; sourceTree = "<group>"; };
 		DDE5FBE21639B13E0069E222 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDE5FBE31639B13E0069E222 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DDE5FBE51639B13E0069E222 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		DDE5FBE71639B13E0069E222 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		DDE5FBE91639B13E0069E222 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		DDE5FBEB1639B13E0069E222 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		DDE5FBEC1639B13E0069E222 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		DDE5FBEE1639B13E0069E222 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		DDE5FBF01639B13E0069E222 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		DDE5FBF21639B13E0069E222 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		DDE5FBF31639B13E0069E222 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		DDE5FBF51639B13E0069E222 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		DDE5FBF71639B13E0069E222 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		DDE5FBFA1639B13E0069E222 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
-		DDE5FBFD1639B13E0069E222 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		DDE5FBEB1639B13E0069E222 /* TiledLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TiledLayerViewController.h; sourceTree = "<group>"; };
+		DDE5FBEC1639B13E0069E222 /* TiledLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiledLayerViewController.m; sourceTree = "<group>"; };
+		DDE5FC051639B3990069E222 /* TiledLayerContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledLayerContentView.h; sourceTree = "<group>"; };
+		DDE5FC061639B3990069E222 /* TiledLayerContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledLayerContentView.m; sourceTree = "<group>"; };
+		DDE5FC081639B5180069E222 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,19 +137,172 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDE5FBD41639B13E0069E222 /* UIKit.framework in Frameworks */,
-				DDE5FBD61639B13E0069E222 /* Foundation.framework in Frameworks */,
 				DDE5FBD81639B13E0069E222 /* CoreGraphics.framework in Frameworks */,
+				DDB3F65E163A42BC005F91EE /* CoreLocation.framework in Frameworks */,
+				DDE5FBD61639B13E0069E222 /* Foundation.framework in Frameworks */,
+				DDB3F65C163A4295005F91EE /* MapBox.framework in Frameworks */,
+				DD389A4A1639E7BC00D47F8B /* MapKit.framework in Frameworks */,
+				DDE5FC091639B5190069E222 /* QuartzCore.framework in Frameworks */,
+				DDE5FBD41639B13E0069E222 /* UIKit.framework in Frameworks */,
+				DDB3F660163A42C2005F91EE /* libsqlite3.dylib in Frameworks */,
+				DDB3F662163A42CA005F91EE /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD389A411639D20800D47F8B /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				DD5ADF46163ACE2F00914081 /* Fingertips */,
+			);
+			name = Externals;
+			path = Dissect;
+			sourceTree = "<group>";
+		};
+		DD389A451639E22800D47F8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD389AAE163A328100D47F8B /* App Icons */,
+				DD389AAF163A328900D47F8B /* Tab Images */,
+				DD389AB0163A329500D47F8B /* Tile Images */,
+				DD389AB1163A329F00D47F8B /* Point Images */,
+				DDB3F673163A4413005F91EE /* MapBox Resources */,
+			);
+			name = Resources;
+			path = Dissect;
+			sourceTree = "<group>";
+		};
+		DD389A4B1639E80300D47F8B /* Map View Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DD389A461639E7AF00D47F8B /* MapViewController.h */,
+				DD389A471639E7AF00D47F8B /* MapViewController.m */,
+			);
+			name = "Map View Demo";
+			sourceTree = "<group>";
+		};
+		DD389A4F1639E92500D47F8B /* Rotation Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DD389A4C1639E92000D47F8B /* RotationViewController.h */,
+				DD389A4D1639E92000D47F8B /* RotationViewController.m */,
+			);
+			name = "Rotation Demo";
+			sourceTree = "<group>";
+		};
+		DD389A741639FA1C00D47F8B /* Offsets Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DD389A751639FA3300D47F8B /* OffsetsViewController.h */,
+				DD389A761639FA3300D47F8B /* OffsetsViewController.m */,
+			);
+			name = "Offsets Demo";
+			sourceTree = "<group>";
+		};
+		DD389A7C163A068800D47F8B /* 3D Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DD389A7D163A06AD00D47F8B /* ThreeDeeViewController.h */,
+				DD389A7E163A06AD00D47F8B /* ThreeDeeViewController.m */,
+			);
+			name = "3D Demo";
+			sourceTree = "<group>";
+		};
+		DD389AAE163A328100D47F8B /* App Icons */ = {
+			isa = PBXGroup;
+			children = (
+				DD5ADF25163A4E3A00914081 /* dissect.png */,
+				DD5ADF26163A4E3A00914081 /* dissect@2x.png */,
+			);
+			name = "App Icons";
+			sourceTree = "<group>";
+		};
+		DD389AAF163A328900D47F8B /* Tab Images */ = {
+			isa = PBXGroup;
+			children = (
+				DD389A8E163A305800D47F8B /* map.png */,
+				DD389A8F163A305800D47F8B /* map@2x.png */,
+				DD389A9A163A311200D47F8B /* tiling.png */,
+				DD389A9B163A311200D47F8B /* tiling@2x.png */,
+				DD389AA2163A314900D47F8B /* offsets.png */,
+				DD389AA3163A314900D47F8B /* offsets@2x.png */,
+				DD389A9E163A313800D47F8B /* annotations.png */,
+				DD389A9F163A313800D47F8B /* annotations@2x.png */,
+				DDB3F655163A415F005F91EE /* rotation.png */,
+				DDB3F656163A415F005F91EE /* rotation@2x.png */,
+				DD389AAA163A31A700D47F8B /* 3d.png */,
+				DD389AAB163A31A700D47F8B /* 3d@2x.png */,
+			);
+			name = "Tab Images";
+			sourceTree = "<group>";
+		};
+		DD389AB0163A329500D47F8B /* Tile Images */ = {
+			isa = PBXGroup;
+			children = (
+				DD5ADF29163A4E5700914081 /* tile_1.png */,
+				DD5ADF2B163A4E5700914081 /* tile_2.png */,
+				DD5ADF2E163A4E5700914081 /* tile_3.png */,
+				DD5ADF2D163A4E5700914081 /* tile_4.png */,
+				DD5ADF2C163A4E5700914081 /* tile_5.png */,
+				DD5ADF2A163A4E5700914081 /* tile_6.png */,
+			);
+			name = "Tile Images";
+			sourceTree = "<group>";
+		};
+		DD389AB1163A329F00D47F8B /* Point Images */ = {
+			isa = PBXGroup;
+			children = (
+				DD5ADF35163A4E7B00914081 /* jack.png */,
+				DD5ADF36163A4E7B00914081 /* jack@2x.png */,
+			);
+			name = "Point Images";
+			sourceTree = "<group>";
+		};
+		DD5ADF46163ACE2F00914081 /* Fingertips */ = {
+			isa = PBXGroup;
+			children = (
+				DD389A421639D23F00D47F8B /* DSFingerTipWindow.h */,
+				DD389A431639D23F00D47F8B /* DSFingerTipWindow.m */,
+			);
+			name = Fingertips;
+			sourceTree = "<group>";
+		};
+		DDB3F65A163A421C005F91EE /* Annotations Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DDB3F663163A42F0005F91EE /* AnnotationsViewController.h */,
+				DDB3F664163A42F0005F91EE /* AnnotationsViewController.m */,
+			);
+			name = "Annotations Demo";
+			sourceTree = "<group>";
+		};
+		DDB3F673163A4413005F91EE /* MapBox Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDB3F674163A442E005F91EE /* HeadingAngleSmall.png */,
+				DDB3F675163A442E005F91EE /* HeadingAngleSmall@2x.png */,
+				DDB3F676163A442E005F91EE /* LoadingTile.png */,
+				DDB3F677163A442E005F91EE /* LoadingTileZoom.png */,
+				DDB3F678163A442E005F91EE /* TrackingDot.png */,
+				DDB3F679163A442E005F91EE /* TrackingDot@2x.png */,
+				DDB3F67A163A442E005F91EE /* TrackingDotHalo.png */,
+				DDB3F67B163A442E005F91EE /* TrackingDotHalo@2x.png */,
+				DDB3F67C163A442E005F91EE /* TrackingHeading.png */,
+				DDB3F67D163A442E005F91EE /* TrackingHeading@2x.png */,
+				DDB3F67E163A442E005F91EE /* TrackingLocation.png */,
+				DDB3F67F163A442E005F91EE /* TrackingLocation@2x.png */,
+			);
+			name = "MapBox Resources";
+			sourceTree = "<group>";
+		};
 		DDE5FBC41639B13E0069E222 = {
 			isa = PBXGroup;
 			children = (
 				DDE5FBD91639B13E0069E222 /* Dissect */,
+				DD389A451639E22800D47F8B /* Resources */,
+				DD389A411639D20800D47F8B /* Externals */,
 				DDE5FBD21639B13E0069E222 /* Frameworks */,
 				DDE5FBD01639B13E0069E222 /* Products */,
 			);
@@ -86,9 +319,15 @@
 		DDE5FBD21639B13E0069E222 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DDE5FBD31639B13E0069E222 /* UIKit.framework */,
-				DDE5FBD51639B13E0069E222 /* Foundation.framework */,
 				DDE5FBD71639B13E0069E222 /* CoreGraphics.framework */,
+				DDB3F65D163A42BC005F91EE /* CoreLocation.framework */,
+				DDE5FBD51639B13E0069E222 /* Foundation.framework */,
+				DDB3F65B163A4295005F91EE /* MapBox.framework */,
+				DD389A491639E7BC00D47F8B /* MapKit.framework */,
+				DDE5FC081639B5180069E222 /* QuartzCore.framework */,
+				DDE5FBD31639B13E0069E222 /* UIKit.framework */,
+				DDB3F65F163A42C2005F91EE /* libsqlite3.dylib */,
+				DDB3F661163A42CA005F91EE /* libz.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -98,16 +337,12 @@
 			children = (
 				DDE5FBE21639B13E0069E222 /* AppDelegate.h */,
 				DDE5FBE31639B13E0069E222 /* AppDelegate.m */,
-				DDE5FBEB1639B13E0069E222 /* FirstViewController.h */,
-				DDE5FBEC1639B13E0069E222 /* FirstViewController.m */,
-				DDE5FBEE1639B13E0069E222 /* first.png */,
-				DDE5FBF01639B13E0069E222 /* first@2x.png */,
-				DDE5FBF21639B13E0069E222 /* SecondViewController.h */,
-				DDE5FBF31639B13E0069E222 /* SecondViewController.m */,
-				DDE5FBF51639B13E0069E222 /* second.png */,
-				DDE5FBF71639B13E0069E222 /* second@2x.png */,
-				DDE5FBF91639B13E0069E222 /* FirstViewController.xib */,
-				DDE5FBFC1639B13E0069E222 /* SecondViewController.xib */,
+				DD389A4B1639E80300D47F8B /* Map View Demo */,
+				DDE5FC041639B34E0069E222 /* Tiled Layer Demo */,
+				DD389A741639FA1C00D47F8B /* Offsets Demo */,
+				DDB3F65A163A421C005F91EE /* Annotations Demo */,
+				DD389A4F1639E92500D47F8B /* Rotation Demo */,
+				DD389A7C163A068800D47F8B /* 3D Demo */,
 				DDE5FBDA1639B13E0069E222 /* Supporting Files */,
 			);
 			path = Dissect;
@@ -120,11 +355,19 @@
 				DDE5FBDC1639B13E0069E222 /* InfoPlist.strings */,
 				DDE5FBDF1639B13E0069E222 /* main.m */,
 				DDE5FBE11639B13E0069E222 /* Dissect-Prefix.pch */,
-				DDE5FBE51639B13E0069E222 /* Default.png */,
-				DDE5FBE71639B13E0069E222 /* Default@2x.png */,
-				DDE5FBE91639B13E0069E222 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDE5FC041639B34E0069E222 /* Tiled Layer Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DDE5FBEB1639B13E0069E222 /* TiledLayerViewController.h */,
+				DDE5FBEC1639B13E0069E222 /* TiledLayerViewController.m */,
+				DDE5FC051639B3990069E222 /* TiledLayerContentView.h */,
+				DDE5FC061639B3990069E222 /* TiledLayerContentView.m */,
+			);
+			name = "Tiled Layer Demo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,15 +422,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDE5FBDE1639B13E0069E222 /* InfoPlist.strings in Resources */,
-				DDE5FBE61639B13E0069E222 /* Default.png in Resources */,
-				DDE5FBE81639B13E0069E222 /* Default@2x.png in Resources */,
-				DDE5FBEA1639B13E0069E222 /* Default-568h@2x.png in Resources */,
-				DDE5FBEF1639B13E0069E222 /* first.png in Resources */,
-				DDE5FBF11639B13E0069E222 /* first@2x.png in Resources */,
-				DDE5FBF61639B13E0069E222 /* second.png in Resources */,
-				DDE5FBF81639B13E0069E222 /* second@2x.png in Resources */,
-				DDE5FBFB1639B13E0069E222 /* FirstViewController.xib in Resources */,
-				DDE5FBFE1639B13E0069E222 /* SecondViewController.xib in Resources */,
+				DD389A90163A305800D47F8B /* map.png in Resources */,
+				DD389A91163A305800D47F8B /* map@2x.png in Resources */,
+				DD389A9C163A311200D47F8B /* tiling.png in Resources */,
+				DD389A9D163A311200D47F8B /* tiling@2x.png in Resources */,
+				DD389AA0163A313800D47F8B /* annotations.png in Resources */,
+				DD389AA1163A313800D47F8B /* annotations@2x.png in Resources */,
+				DD389AA4163A314900D47F8B /* offsets.png in Resources */,
+				DD389AA5163A314900D47F8B /* offsets@2x.png in Resources */,
+				DD389AAC163A31A700D47F8B /* 3d.png in Resources */,
+				DD389AAD163A31A700D47F8B /* 3d@2x.png in Resources */,
+				DDB3F657163A415F005F91EE /* rotation.png in Resources */,
+				DDB3F658163A415F005F91EE /* rotation@2x.png in Resources */,
+				DDB3F680163A442E005F91EE /* HeadingAngleSmall.png in Resources */,
+				DDB3F681163A442E005F91EE /* HeadingAngleSmall@2x.png in Resources */,
+				DDB3F682163A442E005F91EE /* LoadingTile.png in Resources */,
+				DDB3F683163A442E005F91EE /* LoadingTileZoom.png in Resources */,
+				DDB3F684163A442E005F91EE /* TrackingDot.png in Resources */,
+				DDB3F685163A442E005F91EE /* TrackingDot@2x.png in Resources */,
+				DDB3F686163A442E005F91EE /* TrackingDotHalo.png in Resources */,
+				DDB3F687163A442E005F91EE /* TrackingDotHalo@2x.png in Resources */,
+				DDB3F688163A442E005F91EE /* TrackingHeading.png in Resources */,
+				DDB3F689163A442E005F91EE /* TrackingHeading@2x.png in Resources */,
+				DDB3F68A163A442E005F91EE /* TrackingLocation.png in Resources */,
+				DDB3F68B163A442E005F91EE /* TrackingLocation@2x.png in Resources */,
+				DD5ADF27163A4E3A00914081 /* dissect.png in Resources */,
+				DD5ADF28163A4E3A00914081 /* dissect@2x.png in Resources */,
+				DD5ADF2F163A4E5700914081 /* tile_1.png in Resources */,
+				DD5ADF30163A4E5700914081 /* tile_6.png in Resources */,
+				DD5ADF31163A4E5700914081 /* tile_2.png in Resources */,
+				DD5ADF32163A4E5700914081 /* tile_5.png in Resources */,
+				DD5ADF33163A4E5700914081 /* tile_4.png in Resources */,
+				DD5ADF34163A4E5700914081 /* tile_3.png in Resources */,
+				DD5ADF37163A4E7C00914081 /* jack.png in Resources */,
+				DD5ADF38163A4E7C00914081 /* jack@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,8 +468,14 @@
 			files = (
 				DDE5FBE01639B13E0069E222 /* main.m in Sources */,
 				DDE5FBE41639B13E0069E222 /* AppDelegate.m in Sources */,
-				DDE5FBED1639B13E0069E222 /* FirstViewController.m in Sources */,
-				DDE5FBF41639B13E0069E222 /* SecondViewController.m in Sources */,
+				DDE5FBED1639B13E0069E222 /* TiledLayerViewController.m in Sources */,
+				DDE5FC071639B3990069E222 /* TiledLayerContentView.m in Sources */,
+				DD389A441639D23F00D47F8B /* DSFingerTipWindow.m in Sources */,
+				DD389A481639E7AF00D47F8B /* MapViewController.m in Sources */,
+				DD389A4E1639E92000D47F8B /* RotationViewController.m in Sources */,
+				DD389A771639FA3300D47F8B /* OffsetsViewController.m in Sources */,
+				DD389A7F163A06AD00D47F8B /* ThreeDeeViewController.m in Sources */,
+				DDB3F665163A42F0005F91EE /* AnnotationsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,22 +488,6 @@
 				DDE5FBDD1639B13E0069E222 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DDE5FBF91639B13E0069E222 /* FirstViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDE5FBFA1639B13E0069E222 /* en */,
-			);
-			name = FirstViewController.xib;
-			sourceTree = "<group>";
-		};
-		DDE5FBFC1639B13E0069E222 /* SecondViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDE5FBFD1639B13E0069E222 /* en */,
-			);
-			name = SecondViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -290,9 +548,14 @@
 		DDE5FC021639B13E0069E222 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Externals/MapBox\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dissect/Dissect-Prefix.pch";
 				INFOPLIST_FILE = "Dissect/Dissect-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -301,9 +564,14 @@
 		DDE5FC031639B13E0069E222 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Externals/MapBox\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dissect/Dissect-Prefix.pch";
 				INFOPLIST_FILE = "Dissect/Dissect-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -328,6 +596,7 @@
 				DDE5FC031639B13E0069E222 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

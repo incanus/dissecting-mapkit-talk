@@ -1,0 +1,3 @@
+[submodule "Externals/Fingertips"]
+	path = Externals/Fingertips
+	url = git://github.com/developmentseed/fingertips.git
